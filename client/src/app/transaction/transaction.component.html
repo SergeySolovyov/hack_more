@@ -1,0 +1,21 @@
+<mat-card class="card-with-button" style="max-width:500px;">
+    <h1 align="center">Транзакция</h1>
+    <form [formGroup]="transForm" class="login-container" (ngSubmit)="send()">
+        <div class="example-container">
+            <mat-form-field appearance="fill">
+            <mat-label>Enter card</mat-label>
+            <input matInput formControlName="cardNumber">
+            </mat-form-field>
+        </div>
+        <div class="example-container">
+            <mat-form-field appearance="fill">
+            <mat-label>Enter count</mat-label>
+            <input matInput  formControlName="count">
+            </mat-form-field>
+        </div>
+        <input type="submit" class="button2" value="Send" style="margin:auto">
+        
+    </form>
+    
+
+</mat-card>

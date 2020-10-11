@@ -1,0 +1,51 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%
+}
+
+.button1 {
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    font-size: 14pt;
+    width: 100%;
+  }
+.button1:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  .button2 {
+    margin: auto;
+    width: 205px;
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(52, 55, 247); /* Green */
+    font-size: 14pt;
+    margin-top:5px !important;
+  }
+.button2:hover {
+    background-color: rgb(52, 55, 247); /* Green */
+    color: white;
+  }
+.example-container {
+    width:100%
+}
+.mat-form-field {
+    width:100%
+}
